@@ -1,0 +1,473 @@
+/* palette*/
+:root {
+    --grey: #e5e5e5;
+    --yellow: #FCA311;
+    --blue: #14213D;
+}
+
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;0,900;1,100;1,300;1,600;1,900&display=swap');
+
+
+/* general styles start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0px auto;
+    background-color: var(--grey);
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 3%;
+    text-align: center;
+    color: var(--yellow);
+    font-weight: 600;
+    font-style: italic;
+    font-size: 4em;
+    text-shadow: 3px 3px var(--blue);
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: var(--yellow);
+    font-weight: 600;
+    font-size: 1em;
+    text-shadow: 3px 3px var(--blue);
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: var(--yellow);
+    font-weight: 600;
+    font-size: 0.75em;
+    text-shadow: 1px 1px var(--blue);
+}
+
+a {
+    text-decoration: none;
+    color: var(--yellow) !important;
+    font-weight: 100;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.75rem;
+    margin: 0px;    
+}
+
+
+
+/* general styles end */
+
+/* navbar style start */
+.navbar{
+    background-color: var(--blue);
+    padding: 10px 0px 10px 0px; 
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: var(--yellow);
+}
+
+.navbar-brand span {
+    margin-left: 1rem;
+    font-weight: 900;
+}
+
+.navbar a:hover {
+    border-bottom: 1px solid var(--yellow);
+}
+.portfolio {
+    font-weight: 900;
+}
+
+.portfolio-button {
+    border: 1px solid var(--yellow);
+    border-radius: 40px;
+    background-color: var(--blue);
+}
+
+.portfolio-button a:hover{
+    border-bottom: none;
+}
+
+.portfolio-button:hover {
+    background-color: white;
+    transform: scale(1.1,1.1);
+}
+
+
+
+
+/* navbar style end */
+
+/* main content styles start */
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.landingpage{
+    background-image: url("./img/journey1920greyscale.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+.landingpage h1 {
+    font-size: 5rem;
+    font-weight: 400;
+    font-family: 'Italianno', cursive;
+}
+
+.landingpage .container h2 {
+    margin-bottom: 2.5%;
+}
+
+.landingpage-card {
+    margin-top: 15%!important   
+}
+
+.landingpage-card span {
+    font-weight: 400;
+    font-size: 2rem;
+    font-family: 'Italianno', cursive;
+    text-shadow: 1px 1px black;
+    color: var(--yellow)!important;
+    margin-right: -2%;      
+    margin-bottom: -3.5%;      
+}
+
+.push {
+    height: 50px;
+}
+
+/* main content styles end */
+
+/* styles only for the blog page start */
+.postsList{
+    margin-top: 3%;
+}
+
+.card {
+    margin: 1% auto;
+    padding: 2%;
+    width: 80%;
+    background-color: white;
+    display: flex;
+}
+
+.card-inner{
+    display: flex;
+}
+
+.card-wrp {
+    margin: 0px 2% 0px 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    height: 50px;
+    width: 50px;
+}
+
+ 
+
+.card h2 {
+    color: var(--yellow);
+    text-align: left;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.card p {
+    color: black;    
+}
+
+.card span {
+    color: var(--blue);
+    font-weight: 600;
+    text-align: right;
+}
+
+.blogBody{
+    position: relative;
+    margin-top: -30px;    
+}
+
+.blogBody p{
+    margin-top: 30px;
+}
+
+.blogBody div {
+    margin-top: 30px;
+}
+
+
+.blogAuthorDate{
+    display: flex;
+    justify-content: space-between;
+}
+
+.readMoreButton{
+    border: none;
+    background: white;
+    color: var(--yellow);
+    font-weight: 900;    
+}
+
+.blogHideButton{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background: white;
+    color: var(--yellow)
+
+}
+
+/* styles only for the blog page end */
+
+/* styles only for the about page start */
+.aboutMe {
+    display: block;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.aboutMe img {
+    display: block;
+    margin: 5% auto;
+    height: 200px;
+    width: 200px;
+}
+
+.socials-wrp {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+}
+
+.socials-wrp img {
+    height: 50px;
+} 
+
+.socials-wrp img:hover {
+    transform: rotate(3deg) scale(1.2, 1.2);    
+    /*transform: rotate(1deg); */    
+}
+
+/* styles only for the about page end */
+
+
+
+.footer{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue);
+    color: var(--yellow);
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+
+/* Media queries start */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    h1 {
+        font-size: 4.25em;    
+    }
+    .landingpage h1 {
+        font-size: 5rem;
+        font-weight: 400;
+        font-family: 'Italianno', cursive;
+    } 
+    h2 {
+        font-size: 1em;
+    }
+    
+    h3 {
+        font-size: 1em;
+    }
+    p {
+        font-size: 0.75rem;
+    }
+    .card img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .aboutMe {
+        display: block;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .aboutMe img {
+        display: block;
+        margin: 5% auto;
+        height: 200px;
+        width: 200px;
+    }
+
+    .landingpage-card {
+        margin-top: 10%!important   
+    }
+    .socials-wrp img {
+        height: 50px;
+    } 
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 4.5em;    
+    }
+    .landingpage h1 {
+        font-size: 5rem;
+    } 
+    h2 {
+        font-size: 1.25em;
+    }
+    
+    h3 {
+        font-size: 1.25em;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .card img {
+        height: 75px;
+        width: 75px;
+    }
+    .aboutMe {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .aboutMe img {
+        display: block;
+        margin: 0px 5%;
+        height: 200px;
+        width: 200px;
+    }
+    .landingpage-card {
+        margin-top: 5%!important   
+    }
+    .socials-wrp img {
+        height: 50px;
+    } 
+ } 
+
+/* Large devices (desktops, 992px and up) */ 
+@media (min-width: 992px) {
+    h1 {
+        font-size: 4.75em;    
+    }
+    .landingpage h1 {
+        font-size: 6rem;
+    }  
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    h3 {
+        font-size: 1.5em;
+    }
+    .card img {
+        height: 100px;
+        width: 100px;
+    }
+    .aboutMe img {
+        height: 200px;
+        width: 200px;
+    }
+    .landingpage-card {
+        margin-top: 2.5%!important   
+    }
+    .socials-wrp img {
+        height: 50px;
+    } 
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 5em;    
+    }
+    .landingpage h1 {
+        font-size: 8rem;
+    }  
+    h2 {
+        font-size: 1.75em;
+    }
+    
+    h3 {
+        font-size: 2em;
+    }
+    .card img {
+        height: 150px;
+        width: 150px;
+    }
+    .aboutMe img {
+        height: 200px;
+        width: 200px;
+    }
+    .socials-wrp img {
+        height: 50px;
+    } 
+ } 
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    h1 {
+        font-size: 5em;
+    }
+
+    .landingpage h1 {
+        font-size: 12rem;
+    }  
+    h2 {
+        font-size: 2em;
+    }
+    
+    h3 {
+        font-size: 1em;
+    }
+    .card img {
+        height: 200px;
+        width: 200px;
+    }
+    .aboutMe img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .socials-wrp img {
+        height: 50px;
+    }
+}
+
+
+/* Media queries end */
+
+
