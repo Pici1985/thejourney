@@ -74,7 +74,12 @@ p {
     padding: 10px 0px 10px 0px; 
 }
 
+.nav {
+    margin: 0px auto;
+}
+
 .navbar-brand {
+    margin: 0px auto; 
     display: flex;
     align-items: center;
     color: var(--yellow);
@@ -334,6 +339,19 @@ p {
     .socials-wrp img {
         height: 50px;
     } 
+
+    .navbar-brand {
+        margin: 0px 0px;
+        display: flex;
+        align-items: center;
+        color: var(--yellow);
+    }
+
+    .nav {
+        margin: 0px 0px;
+    }
+
+
 }
 
 /* Medium devices (tablets, 768px and up) */
