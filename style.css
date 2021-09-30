@@ -123,7 +123,7 @@ p {
     margin-bottom: -50px;
 }
 
-.landingpage{
+.landingpage {
     background-image: url("./img/journey1920greyscale.jpg");
     background-position: top;
     background-size: cover;
@@ -173,7 +173,11 @@ p {
 }
 
 .card-inner{
-    display: flex;
+    display: grid;
+}
+
+.card-img {
+    text-align: center;
 }
 
 .card-wrp {
@@ -182,24 +186,25 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: center;
 }
 
 .card img {
-    height: 50px;
-    width: 50px;
+    height: auto;
+    width: 100%;
 }
 
  
 
 .card h2 {
     color: var(--yellow);
-    text-align: left;
+    text-align: center;
     font-style: italic;
     font-size: 2rem;
 }
 
 .card p {
-    color: black;    
+    color: black;   
 }
 
 .card span {
@@ -219,6 +224,7 @@ p {
 
 .blogBody div {
     margin-top: 30px;
+    text-align: left;
 }
 
 
@@ -258,8 +264,8 @@ p {
 .aboutMe img {
     display: block;
     margin: 5% auto;
-    height: 200px;
-    width: 200px;
+    height: 200px!important;
+    width: 200px!important;
 }
 
 .socials-wrp {
@@ -269,7 +275,7 @@ p {
 }
 
 .socials-wrp img {
-    height: 50px;
+    height: 50px!important;
 } 
 
 .socials-wrp img:hover {
@@ -351,6 +357,11 @@ p {
         margin: 0px 0px;
     }
 
+    .card img {
+        height: auto;
+        width: 100%;
+    }
+
 
 }
 
@@ -394,6 +405,11 @@ p {
     .socials-wrp img {
         height: 50px;
     } 
+
+    .card img {
+        height: auto;
+        width: 100%;
+    }
  } 
 
 /* Large devices (desktops, 992px and up) */ 
@@ -424,7 +440,12 @@ p {
     }
     .socials-wrp img {
         height: 50px;
-    } 
+    }
+    
+    .card img {
+        height: auto;
+        width: 100%;
+    }
  }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -452,7 +473,12 @@ p {
     }
     .socials-wrp img {
         height: 50px;
-    } 
+    }
+    
+    .card img {
+        height: auto;
+        width: 100%;
+    }
  } 
 
 /* XX-Large devices (larger desktops, 1400px and up) */
@@ -482,6 +508,11 @@ p {
 
     .socials-wrp img {
         height: 50px;
+    }
+
+    .card img {
+        height: auto;
+        width: 100%;
     }
 }
 

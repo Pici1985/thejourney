@@ -9,12 +9,14 @@ function getPosts(){
             let div = document.createElement('div');
             div.innerHTML = (`
                 <div class="card-inner">
-                    <img src="${post.image}">
+                    <div class="card-img">
+                        <img src="${post.image}">
+                    </div>
                     <div class="card-wrp">
                         <h2>${post.title}</h2>
                         <p>${post.snippet}</p>
                         <div>
-                            <button class="readMoreButton" onClick="showPost('${post.id}')";">Read more...</button>
+                            <button class="readMoreButton" onClick="showPost('${post.id}');">Read more...</button>
                         </div>
                         <div class="blogBody" id="${post.id}" style="display: none">
                             <button id="blogHider" class="blogHideButton" onClick="hidePost('${post.id}');">
