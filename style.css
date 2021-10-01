@@ -338,7 +338,7 @@ p {
         margin-top: 10%!important   
     }
     .socials-wrp img {
-        height: 50px;
+        height: 50px!important;
     } 
 
     .navbar-brand {
@@ -398,7 +398,7 @@ p {
         margin-top: 5%!important   
     }
     .socials-wrp img {
-        height: 50px;
+        height: 50px!important;
     } 
 
     .card img {
@@ -434,7 +434,7 @@ p {
         margin-top: 2.5%!important   
     }
     .socials-wrp img {
-        height: 50px;
+        height: 50px!important;
     }
     
     .card img {
@@ -467,7 +467,7 @@ p {
         width: 200px;
     }
     .socials-wrp img {
-        height: 50px;
+        height: 50px!important;
     }
     
     .card img {
@@ -502,7 +502,7 @@ p {
     }
 
     .socials-wrp img {
-        height: 50px;
+        height: 50px!important;
     }
 
     .card img {
