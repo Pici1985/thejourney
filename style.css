@@ -160,7 +160,7 @@ p {
 }
 
 .card {
-    margin: 1% auto;
+    margin: 2.5% auto;
     padding: 2%;
     width: 80%;
     background-color: white;
@@ -176,7 +176,6 @@ p {
 }
 
 .card-wrp {
-    margin: 0px 2% 0px 2%;
     width: 100%;
     display: flex;
     flex-direction: column;
