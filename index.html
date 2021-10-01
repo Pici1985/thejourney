@@ -19,7 +19,8 @@
 
 <body>
     <div class="wrapper landingpage">
-        <nav class="navbar">
+
+        <nav class="navbar navbar-expand-sm navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">
                     <svg width="30" height="24" viewBox="0 0 161 113" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,7 +28,15 @@
                         </svg>                        
                     <span> The Journey </span>
                 </a>
-                    <ul class="nav justify-content-end">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon mt-2">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" height="26px" width="26px" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+                    </span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" href="./blog.html">Blog</a>
                         </li>
@@ -40,6 +49,7 @@
                             </button>
                         </li>
                     </ul>
+                </div>
             </div>
         </nav>
         
