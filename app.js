@@ -53,3 +53,19 @@ function hidePost(id){
     document.getElementById(id).style.display = "none";
 }
 
+// this function is to operate the chevrons
+
+function openDialog(){   
+    let open = document.getElementById('chevronOpen');
+    let close = document.getElementById('chevronClose');
+    if(open.style.display === "block"){
+        open.style.display = "none";
+        close.style.display = "block";
+    } else {
+        open.style.display = "block";
+        close.style.display = "none";
+    }   
+};
+
+
+
