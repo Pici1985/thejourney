@@ -290,6 +290,10 @@ p {
     /*transform: rotate(1deg); */    
 }
 
+.socials-wrp svg:hover {
+    transform: rotate(3deg) scale(1.2, 1.2);    
+    /*transform: rotate(1deg); */    
+}
 .justfieldslink{
     font-weight: 600;
 }
