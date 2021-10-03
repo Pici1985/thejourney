@@ -39,7 +39,7 @@ h2 {
     color: var(--yellow);
     font-weight: 600;
     font-size: 1em;
-    text-shadow: 3px 3px var(--blue);
+    text-shadow: 2px 2px var(--blue);
 }
 
 h3 {
@@ -288,6 +288,10 @@ p {
 .socials-wrp img:hover {
     transform: rotate(3deg) scale(1.2, 1.2);    
     /*transform: rotate(1deg); */    
+}
+
+.justfieldslink{
+    font-weight: 600;
 }
 
 /* styles only for the about page end */
