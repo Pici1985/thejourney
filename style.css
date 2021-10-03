@@ -118,7 +118,8 @@ p {
 }
 
 .landingpage {
-    background-image: url("./img/journey1920greyscale.jpg");
+    /* background-image: url("./img/journey1920greyscale.jpg"); */
+    background-image: url("./img/journey1920greyscaledarkened-min.jpg");
     background-position: top;
     background-size: cover;
 }
