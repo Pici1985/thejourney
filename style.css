@@ -134,6 +134,14 @@ p {
     margin-bottom: 2.5%;
 }
 
+.landingpage-card {
+    background: rgba(0,0,0,0.5)!important;
+}
+
+.landingpage-card p {
+    color: white!important;
+}
+
 #titleCard {
     background: rgba(0,0,0,0);
 }
