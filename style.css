@@ -467,6 +467,10 @@ p {
         height: 200px;
         width: 200px;
     }
+
+    .owner{
+        margin: 0px auto 1% auto;    
+    }
     .landingpage-card {
         margin-top: 2.5%!important   
     }
@@ -477,6 +481,10 @@ p {
     .card img {
         height: auto;
         width: 100%;
+    }
+
+    .card h2 {
+        font-size: 2rem;
     }
 
     .landingpage-card {
@@ -516,6 +524,10 @@ p {
         width: 100%;
     }
 
+    .card h2 {
+        font-size: 2.5rem;
+    }
+
     .landingpage-card {
         margin-top: 5%;
     }
@@ -553,6 +565,10 @@ p {
     .card img {
         height: auto;
         width: 100%;
+    }
+
+    .card h2 {
+        font-size: 3rem;
     }
 
     .landingpage-card {

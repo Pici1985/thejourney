@@ -11,6 +11,7 @@ function getPosts(){
                 <div class="card-inner">
                     <div class="card-img">
                         <img src="${post.image}">
+                        <p class="owner"> ${post.owner}</p>
                     </div>
                     <div class="card-wrp">
                         <h2>${post.title}</h2>
