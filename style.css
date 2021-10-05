@@ -247,6 +247,10 @@ p {
     text-align: left;
 }
 
+.blogBody div a {
+    font-weight: 900;
+}
+
 
 .blogAuthorDate{
     display: flex;
