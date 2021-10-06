@@ -319,7 +319,7 @@ p {
 
 
 
-.footer{
+.footer {
     height: 50px;
     display: flex;
     align-items: center;
@@ -328,6 +328,14 @@ p {
     color: var(--yellow);
     font-weight: 900;
     font-size: 1rem;
+}
+
+.footer a {
+    margin-left: 3px;;
+}
+
+.footer a:hover {
+    border-bottom: 1px solid var(--yellow)!important; 
 }
 
 
